@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>persnol portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/08f7414434.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+
+        <div class="header-text">
+            <p>javafullstack developer</p>
+            <h1>Hi, i'm <span>Huzefa</span>  Lohiya<br> From India</h1>
+           
+      </div>
+    </div>
+
+
+<!-------------------about Me --------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I’m Huzefa Lohiya, an aspiring Java Full Stack Developer currently in my final year of a Diploma in Information Technology at Lukhdhirji Engineering College, Morbi. My main focus is on building dynamic, responsive applications with a strong foundation in Java and web technologies. Outside of coding, I love staying active and enjoy playing cricket and volleyball. My goal is to leverage my skills to create impactful solutions that make a difference.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br> java, JavaScript, HTML, CSS</li>
+                        <li><span>Database Management</span><br> MySQL, MongoDB</li>
+                        <li><span>Development Tools</span><br> Git, IntelliJ IDEA, VS Code</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Brany Beam</span><br> June 27, 2024 – August 7, 2024
+                            During my second internship at Brany Beam, I advanced my web design skills by incorporating JavaScript to create dynamic and interactive user interfaces. This experience deepened my understanding of front-end development, allowing me to craft more engaging and responsive web pages while enhancing my problem-solving abilities.</li>
+                        <li><span>CODELOCK solutions</span><br>August 10, 2023 – August 23, 2023
+                            Completed my first internship at Codelock Solution, where I worked as a Web Designer. During this period, I gained hands-on experience in designing responsive and user-friendly web layouts, enhancing my skills in HTML, CSS, and JavaScript. This internship was a valuable introduction to the industry, allowing me to apply my knowledge in a real-world setting. </li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>10th Grade</span><br> Completed in March 2022 | 71 Percentile Achieved a strong foundation in core subjects, with a focus on analytical and problem-solving skills, which laid the groundwork for my further studies in Information Technology.</li>
+                        <li><span>Diploma in Information Technology</span><br>Lukhdhirji Engineering College, Morbi | September 2022 – Present
+                            Currently in my final year with a CGPA of 8.10. This program has equipped me with strong technical skills and a solid understanding of programming and web development, preparing me for a career in full-stack Java development. </li>
+                    </ul>
+                   </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-----------------Portfolio -------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/rock1.png">
+                <div class="layer">
+                    <h3>Rock-Paper-Scissors Game (JavaScript Project) </h3>
+                    <p>Creating a this game using JAVASCPRIT Language for a collage project </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/newamazon.jpg" >
+                <div class="layer">
+                    <h3>Amazon Clone Website </h3>
+                    <p>Developed a visually appealing clone of the Amazon website using HTML and CSS, focusing on layout structure, styling, and responsiveness. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/food.jpg" >
+                <div class="layer">
+                    <h3>Food Table Booking Website (React.js Project) </h3>
+                    <p>Built a food table booking website using HTML, CSS, JavaScript, and React.js, allowing users to easily reserve tables at restaurants. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+
+<!-------------Contact----------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> huzeflohiya@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +919313515014</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/people/Lohiya-Huzefa/pfbid0DyhG99wkQPW21WeyqSm1C7Sz9gRdUCtoJaATWQ1rTGivJxpvhUwanSo6beLEkR3Al/?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/huzefa-lohiya03/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/huzeff_.03/profilecard/?igsh=ZGNxZzczMWJiczNx"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/huzeff-CV.pdf" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © huzef 2024 . All Rights Reserved.</p>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
