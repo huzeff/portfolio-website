@@ -381,7 +381,7 @@ nav .fas{
     .header-text{
         margin-top: 100%;
         font-size: 16px;
-        margin-left: 0;
+        margin-left: 2px;
     }
     .header-text h1{
         font-size: 33px;
@@ -413,7 +413,7 @@ nav .fas{
     }
     .sub-title{
         font-size: 40px;
-        margin-left: 0;
+        margin-left: 2px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
